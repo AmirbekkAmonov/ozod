@@ -26,7 +26,7 @@ const App: React.FC = () => {
   return (
     <div className="App">
       <h1>
-        Ozod san <span style={{ color: 'red' }}>Gey</span> misan
+        Sardor san <span style={{ color: 'red' }}>Gey</span> misan
       </h1>
       <button onClick={() => setShowModal(true)}>Ha</button>
       <button
@@ -40,7 +40,7 @@ const App: React.FC = () => {
       {showModal && (
         <div className="modal">
           <div className="modal-content">
-            <h2>Qabul qilindi 😁</h2>
+            <h2>Qabul qilindi <span style={{ color: 'red' }}>Gey</span> 😁</h2>
             <button onClick={() => setShowModal(false)}>Yopish</button>
           </div>
         </div>
